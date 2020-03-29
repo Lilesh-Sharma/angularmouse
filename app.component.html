@@ -1,0 +1,16 @@
+<div (mousemove)="onMouseMove($event)" ></div>
+{{data}}
+
+
+<h2>Move the mouse </h2>
+<div>
+  <div>
+    {{ text }}
+  </div>
+  <body (mousemove)="mouseMove()">
+    Hello world
+  </body>
+  <div>
+  <input type="text" [hidden]="test">
+  </div>
+</div>
